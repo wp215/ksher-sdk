@@ -17,3 +17,7 @@
  * 是以-----BEGIN PRIVATE KEY-----开通的，以下命令可以装有openssl环境的linux机器上转化pcks1到pcks8格式。
  * 需要pkcs8格式的可以调用命令行转换:
  * openssl pkcs8 -topk8 -inform PEM -in private.key -outform pem -nocrypt -out pkcs8.pem
+
+
+# pkcs1 转换 pkcs8 在线工具
+http://www.metools.info/code/c84.html
